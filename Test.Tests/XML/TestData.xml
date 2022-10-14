@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TestData>
+  <IsOnSale>
+	  <isOnSale>true</isOnSale>
+    <ExpectedResults>true</ExpectedResults>
+  </IsOnSale>
+  <IsOnSale>
+	  <isOnSale>false</isOnSale>
+    <ExpectedResults>False</ExpectedResults>
+</IsOnSale>
+</TestData>

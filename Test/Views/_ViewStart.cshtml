@@ -1,0 +1,13 @@
+﻿@{
+
+
+@*Set the Layout equal to the _AdminLayout.cshtml if the user is in the Admin Role*@
+   if (User.IsInRole("Admin"))
+        {
+            Layout = "~/Views/Shared/_AdminLayout.cshtml";
+        }
+        else
+        {
+            Layout = "~/Views/Shared/_Layout.cshtml";
+        }
+    }
